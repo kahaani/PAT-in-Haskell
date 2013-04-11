@@ -1,3 +1,5 @@
+-- see basic-1002
+
 import Data.List(intercalate)
 import Data.Char(digitToInt)
 
