@@ -22,6 +22,7 @@ mainwork contents = case res of
 		res    = binarySearchRadix numbs numa lbound rbound
 
 -- cannot pass case 7 using linear search
+-- here is an unbalanced binary search, to find the smallest one
 binarySearchRadix :: [IntX] -> IntX -> IntX -> IntX -> Maybe IntX
 binarySearchRadix nums target lbound rbound = 
 	if lbound > rbound
